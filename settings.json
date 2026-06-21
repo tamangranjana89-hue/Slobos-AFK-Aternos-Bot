@@ -45,7 +45,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 10,
       "speed": 3000
     },
     "look-around": {
@@ -77,8 +77,8 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
-      "chat": false
+      "disconnect": false,
+      "chat": true
     }
   },
   "chat": {
