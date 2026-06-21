@@ -9,7 +9,7 @@
     "ip": "McpeGamer13.aternos.me",
     "port": 32989,
     "version": "",
-    "try-creative": true
+    "try-creative": false
   },
   "position": {
     "enabled": true,
@@ -77,8 +77,8 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": false,
-      "chat": true
+      "disconnect": true,
+      "chat": false
     }
   },
   "chat": {
